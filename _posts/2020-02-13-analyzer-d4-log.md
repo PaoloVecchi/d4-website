@@ -51,7 +51,7 @@ tail -n2000 -F auth.log | grep sshd | egrep "Invalid user" | /home/toto/git/d4-c
 | socat - OPENSSL-CONNECT:crq.circl.lu:4443,verify=0,keepalive=1 | ship to d4 server |
 |---|---|
 
-The same could actually be achieve with [the go client](https://github.com/D4-project/d4-goclient). The type of data sent is
+The same could actually be achieved with [the go client](https://github.com/D4-project/d4-goclient). The type of data sent is
 3: generic log line.
 
 
